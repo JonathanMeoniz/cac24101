@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASE 4 FORMULARIOS</title>
+</head>
+<body>
+    <HEADER> <H1>FORMULARIOS</H1> </HEADER>
+    <MAIN>
+        <section>
+            <fieldset> <LEGend>FORMULARIOS</LEGend>
+            <form>
+            <div>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" maxlength="5">
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" min="0" max="120">
+            <label for="mes">Mes</label>
+            <input type="number" min="0" max="12">
+            <input type="range">
+        </div>
+        <div>
+            <label for="fechaN"> Fecha de nacimiento</label>
+            <input type="date" value="">
+        </div>
+        <div>
+            <label for="foto">foto</label>
+            <input type="file" >
+        </div>
+        <div>
+            <label>Nacionalidad</label>
+            <select name="Nacionalidad" id="Nacionalidad">
+                <option value="Argentina">Argentina</option>
+                <option value="Paraguay">Paraguay</option>
+                <option >Chile</option>
+                <option >Peru</option>
+            </select>
+        </div>
+        <div>
+            <label >T.C</label>
+            <SPan>SI</SPan>
+            <input type="radio" name="tc" value="si">
+    
+            
+            <label >T.C</label>
+            <SPan>NO</SPan>
+            <input type="radio"name="tc" value="no">
+            <label >pp</label>
+            <span>Si</span>
+            <input type="checkbox">
+        </div>
+        <div>
+            <label>TURNO</label>
+            <label>MAÑANA</label>
+            <input type="radio" name="elegi" value="MAÑANA">
+            <label>TARDE</label>
+            <input type="radio" name="elegi" value="TARDE">
+            <label>NOCHE</label>
+            <input type="radio" name="elegi" value="NOCHE">
+        </div>
+        <div>  
+            <button>enviar</button>
+        </div>
+        <div>
+            <button type="reset"> Limpiar </button>
+        </div>
+        </form>
+    </fieldset>
+    </section>
+
+    </MAIN>
+</body>
+</html>
